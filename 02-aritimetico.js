@@ -26,3 +26,14 @@ var MinhaVariavel = 10;
 var outraVariavel = 20
 const _minhaconstante = 3.1514
 var $minhaVariavel = 11
+
+
+
+var v1 = 10;
+var v2 = 3;
+console.log("--------------------------");
+console.log("valores: v1 =", v1 ," | v2 =", v2)
+console.log("--------------------------")
+console.log("resto da divisao inteira: v1 % v2 =",v1 % v2);
+console.log("exponenciacao: v1**v2 (v1 elevado a v2) =", v1 ** v2)
+
