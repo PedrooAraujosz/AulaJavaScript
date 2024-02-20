@@ -1,8 +1,8 @@
 //somando textos
 
 var nome ="Pedro";
-var boasVindas = "ola " + nome + ",seja bem vindo";
-var comVirgula  = "ola " + nome + ",seja bem vindo";
+var boasVindas = "ola" + nome + ",seja bem vindo";
+var comVirgula  = "ola" + nome + "seja bem vindo";
 
 console.log(boasVindas);
 
