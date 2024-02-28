@@ -37,3 +37,4 @@ console.log("olá",usuario[5], "seja bem vindo ao nosso sistema. seu endereço �
  "e tem duas pets chmadas",usuario[0],
  "a sua idade é",usuario[1],"anos",
  "e gosta muito de",usuario[3], "sua cor favorita é",usuario[2] )
+
