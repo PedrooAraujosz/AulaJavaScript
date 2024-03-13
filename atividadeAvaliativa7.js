@@ -60,51 +60,85 @@ console.log("JOGO DA VELHINHA");
 //   }
 // }
 
-const tabuleiro = [
-  [" ", " ", " "],
-  [" ", " ", " "],
-  [" ", " ", " "],
-];
-let jogadorX = "X";
-let jogadorO = "O";
+// const tabuleiro = [
+//   [" ", " ", " "],
+//   [" ", " ", " "],
+//   [" ", " ", " "],
+// ];
+// let jogadorAtual = "x"
 
-function jogar(jogador) {
-  let linha, coluna;
-  do {
-    linha = Math.floor(Math.random() * 3);
-    coluna = Math.floor(Math.random() * 3);
-  } while (tabuleiro[linha][coluna] !== " ");
+// function jogar(jogador) {
+//   let linha, coluna;
+//   do {
+//     linha = Math.floor(Math.random() * 3);
+//     coluna = Math.floor(Math.random() * 3);
+//   } while (tabuleiro[linha][coluna] !== " ");
 
-  tabuleiro[linha][coluna] = jogador;
-}
-jogar(jogadorX);
-jogar(jogadorO);
-jogar(jogadorX);
-jogar(jogadorO);
-jogar(jogadorX);
-jogar(jogadorO);
-jogar(jogadorX);
-jogar(jogadorO);
-jogar(jogadorX);
+//   tabuleiro[linha][coluna] = jogador;
+//  jogadorAtual = jogadorAtual === "x" ? "O" : "x"
+// }
 
-console.table(tabuleiro);
+// function verificaVencedor() {
+//   //verifica coluna
+//   for (let i = 0; i < 3; i++) {
+// if(tabuleiro[0][0] === tabuleiro[1][0] &&
+//    tabuleiro[1][0] === tabuleiro[2][0] &&
+//    tabuleiro[1][0] !== " "
+//        ) {
+//   console.log(`O jogador ${tabuleiro[1][i]} ganhou`)
+//   return tabuleiro [1] [i]
+// }
+// else if  //verificar linha
+// if(tabuleiro[0][0] === tabuleiro[1][0] &&
+//    tabuleiro[1][0] === tabuleiro[2][0] &&
+//    tabuleiro[1][0] !== ""
+// ) {
+//   console.log(`O jogador ${tabuleiro[1][i]} ganhou`)
+// }
+// else if  //verificar linha
+// if(tabuleiro[0][0] === tabuleiro[1][0] &&
+//    tabuleiro[1][0] === tabuleiro[2][0] &&
+//    tabuleiro[1][0] !== ""
+// )  console.log(`O jogador ${tabuleiro[1][i]} ganhou`)
+  
 
-function verificaVencedor (){
-    //   $([0] = [0]);
-    //   $([1] = [1]);
-    //   $([2] = [2]);
-console.table(tabuleiro);
-}
-// if $([0] = [0]);
-// if $([1] = [1]);
-// if $([2] = [2]);
 
 
 
-// console.log(`-------------------------------------`);
-// console.log("               placar                 ");
-// console.log(`-------------------------------------`);
-// console.log( > derrota ?"💵você ganhou🎉🥳" :
-// "💸você perdeu 😨" );
-// console.log(`derrotas: ${derrota}`);
-// console.log(`-------------------------------------`);
+
+
+
+
+
+
+// jogar(jogadorX);
+// jogar(jogadorO);
+// jogar(jogadorX);
+// jogar(jogadorO);
+// jogar(jogadorX);
+// jogar(jogadorO);
+// jogar(jogadorX);
+// jogar(jogadorO);
+// jogar(jogadorX);
+
+// console.table(tabuleiro);
+
+// function verificaVencedor (){
+//     //   $([0] = [0]);
+//     //   $([1] = [1]);
+//     //   $([2] = [2]);
+// console.table(tabuleiro);
+// }
+// // if $([0] = [0]);
+// // if $([1] = [1]);
+// // if $([2] = [2]);
+
+
+
+// // console.log(`-------------------------------------`);
+// // console.log("               placar                 ");
+// // console.log(`-------------------------------------`);
+// // console.log( > derrota ?"💵você ganhou🎉🥳" :
+// // "💸você perdeu 😨" );
+// // console.log(`derrotas: ${derrota}`);
+// // console.log(`-------------------------------------`);
